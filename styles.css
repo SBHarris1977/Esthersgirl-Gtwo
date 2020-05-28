@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  background-image: url(./images/Heavenly.jpg);
+}
+
+/*Navbar styling */
+.container {
+  background-color: #cccccc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.navbar > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9m;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link a:hover {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.video {
+  position: absolute;
+  margin: auto;
+  top: 75%;
+  left: 35%;
+  border: paleturquoise;
+  border-style: double;
+  border-width: thick;
+}
+
+/*About Page */
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image {
+  width: 100%;
+}
+
+.profile-content {
+  padding: 30px;
+  font-family: "Kalam", sans-serif;
+}
+
+.profile-content h1 {
+  color: seagreen;
+}
